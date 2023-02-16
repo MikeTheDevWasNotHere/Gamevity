@@ -9,78 +9,60 @@
 </head>
 
 <body onload="search_jsonData()">
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <img src="../Gamevity/Assets/Images/logo.png" alt="">
-                </span>
-
-                <div class="text logo-text">
-                    <span class="name">Gamevity</span>
-                    <span class="profession">V 00.00.01</span>
-                </div>
-            </div>
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-                <li class="search-box">
-                    <i class="ti ti-search icon"></i>
-                    <input id="searchbar" onkeyup="search_jsonData()" type="text" name="search" placeholder="Search...">
-                </li>
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="ti ti-home icon"></i>
-                            <span class="text nav-text">Home</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="ti ti-books icon"></i>
-                            <span class="text nav-text">Library</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bottom-content">
-                <li class="">
-                    <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Change Log</span>
+    <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <a href="#" class="nav__logo">
+                        <img src="assets/icons/logo.svg" alt="" class="nav__logo-icon">
+                        <span class="nav__logo-text">Gamevity</span>
                     </a>
-                </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class="ti ti-moon moon icon"></i>
-                        <i class="ti ti-sun-high sun icon"></i>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-chevron-right'></i>
                     </div>
-                    <span class="mode-text text">Cave Mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
+    
+                    <ul class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-grid-alt nav__icon'></i>
+                            <span class="nav__text">Home</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-user nav__icon' ></i>
+                            <span class="nav__text"></span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-bell nav__icon' ></i>
+                            <span class="nav__text">Notification</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-heart nav__icon'></i>
+                            <span class="nav__text">Favorites</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-bookmark nav__icon'></i>
+                            <span class="nav__text">Saved</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-message-rounded nav__icon' ></i>
+                            <span class="nav__text">Chat</span>
+                        </a>                 
+                    </ul>
+                </div>
+                <a href="#" class="nav__link">           
+                    <i class='bx bx-log-out-circle nav__icon'></i>
+                    <span class="nav__text">Close</span>
+                </a>
+            </nav>
         </div>
+        <h2>Unete al canal</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Atque optio odio officiis nostrum nesciunt quam libero. 
+            Cumque impedit veritatis, quibusdam nulla accusantium illo. 
+            In velit laboriosam obcaecati quaerat eaque beatae.
+    
+    <ul id="list-holder">
 
-    </nav>
-
-    <section class="home">
-        <div class="text">Gamevity - Home</div>
-
-        <ul id="list-holder">
-
-        </ul>
-    </section>
+        </ul></p>
 
     <script src="../Gamevity/Assets/JS/sidebar.js"></script>
     <script src="../Gamevity/Assets/JS/search.js"></script>
