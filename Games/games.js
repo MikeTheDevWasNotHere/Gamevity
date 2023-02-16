@@ -2,17 +2,17 @@ let jsonData = `[
 	{
 		"Name": "Crossy Road",
 		"Type": "Arcade",
-		"Preview": "",
-		"Open": "",
+		"Preview": "www",
+		"Open": "www",
 		"Added": "2/16/23 08:22:AM",
-		"ID": ""
+		"ID": "209293"
 	},
 	{
-		"Name": "Crossy Road",
-		"Type": "Arcade",
-		"Preview": "",
-		"Open": "",
-		"Added": "2/16/23 08:22:AM",
-		"ID": ""
+		"Name": "Tower Blocks",
+		"Type": "Strategy",
+		"Preview": "www",
+		"Open": "www",
+		"Added": "2/16/23 08:39:AM",
+		"ID": "347683"
 	}
 ]`
