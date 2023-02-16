@@ -9,9 +9,9 @@ function search_jsonData() {
     for (i = 0; i < data.length; i++) {
         let obj = data[i];
 
-        if (obj.Name.toLowerCase().includes(input)) {
+        if (obj.Name.toLowerCase().includes(input) || obj.Type.toLowerCase().includes(input) || obj.Added.toLowerCase().includes(input) || obj.ID.toLowerCase().includes(input)) {
             const elem = document.createElement("p")
-            elem.innerHTML = `${obj.Name} - ${obj.Color}`
+            elem.innerHTML = `${obj.Name} - ${obj.Type} - ${obj.Added} - ${obj.ID}`
             x.appendChild(elem)
         }
     }
