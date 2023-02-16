@@ -1,6 +1,6 @@
 let data = JSON.parse(jsonData)
 
-function search_animal() {
+function search_jsonData() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();
     let x = document.querySelector('#list-holder');
@@ -10,7 +10,7 @@ function search_animal() {
         let obj = data[i];
 
         if (obj.Name.toLowerCase().includes(input)) {
-            const elem = document.createElement("li")
+            const elem = document.createElement("p")
             elem.innerHTML = `${obj.Name} - ${obj.Color}`
             x.appendChild(elem)
         }

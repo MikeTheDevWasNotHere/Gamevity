@@ -1,6 +1,18 @@
 let jsonData = `[
-    {"Name": "Lion", "Color": "Yellow"},
-    {"Name": "Monkey", "Color": "Orange"},
-    {"Name": "Fish", "Color": "Blue"},
-    {"Name": "Cat", "Color": "Black"}
-  ]`
+	{
+		"Name": "Crossy Road",
+		"Type": "Arcade",
+		"Preview": "",
+		"Open": "",
+		"Added": "2/16/23 08:22:AM",
+		"ID": ""
+	},
+	{
+		"Name": "Crossy Road",
+		"Type": "Arcade",
+		"Preview": "",
+		"Open": "",
+		"Added": "2/16/23 08:22:AM",
+		"ID": ""
+	}
+]`

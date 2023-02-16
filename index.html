@@ -7,7 +7,8 @@
     
     <title>Gamevity - Home</title>
 </head>
-<body>
+
+<body onload="search_jsonData()">
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -28,7 +29,7 @@
             <div class="menu">
                 <li class="search-box">
                     <i class="ti ti-search icon"></i>
-                    <input type="text" placeholder="Search...">
+                    <input id="searchbar" onkeyup="search_jsonData()" type="text" name="search" placeholder="Search...">
                 </li>
 
                 <ul class="menu-links">
@@ -74,7 +75,11 @@
     </nav>
 
     <section class="home">
-        <div class="text">Home</div>
+        <div class="text">Gamevity - Home</div>
+
+        <ul id="list-holder">
+
+        </ul>
     </section>
 
     <script src="../Gamevity/Assets/JS/sidebar.js"></script>
